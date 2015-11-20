@@ -1,5 +1,10 @@
 
 
+def getHello(string):
+	return "hello"	
 
 
-def 
+def parseFasta(string):
+	splitted = string.split(">")
+	return splitted
+					
