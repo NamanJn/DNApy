@@ -1,1 +1,1 @@
-<h1> Hey man </h1>
+1. <code> pip install DNApy </code>
