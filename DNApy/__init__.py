@@ -1,3 +1,3 @@
-from common import *
-from clustering import *
-from parsers import *
+from .common import *
+from .clustering import *
+from .parsers import *
