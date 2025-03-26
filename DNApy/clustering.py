@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from sklearn import manifold # importing MDS
 from sklearn.cluster import KMeans
 
-from common import damerau_levenshtein_distance
+from .common import damerau_levenshtein_distance
 import itertools
 import numpy as np
 import matplotlib
@@ -69,7 +69,7 @@ class ClusterMotifs(object):
                 # assigning the distance value for the 2 cells
                 distance_matrix[motif1_index, motif2_index] = distance
                 distance_matrix[motif2_index, motif1_index] = distance
-             return distance_matrix   
+            return distance_matrix
 
 
     def showPlot(self):
